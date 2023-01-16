@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'mysql',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version'
+1 verbose cli ]
+2 info using npm@1.3.21
+3 info using node@v16.15.0
+4 verbose url raw mysql
+5 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+6 verbose url resolved https://registry.npmjs.org/mysql
+7 info trying registry request attempt 1 at 09:06:26
+8 http GET https://registry.npmjs.org/mysql
+9 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+10 info trying registry request attempt 2 at 09:06:36
+11 http GET https://registry.npmjs.org/mysql
+12 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+13 info trying registry request attempt 3 at 09:07:36
+14 http GET https://registry.npmjs.org/mysql
+15 error Error: unable to get local issuer certificate
+15 error     at TLSSocket.onConnectSecure (node:_tls_wrap:1532:34)
+15 error     at TLSSocket.emit (node:events:527:28)
+15 error     at TLSSocket._finishInit (node:_tls_wrap:946:8)
+15 error     at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:727:12)
+16 error If you need help, you may report this *entire* log,
+16 error including the npm and node versions, at:
+16 error     <http://github.com/isaacs/npm/issues>
+17 error System Windows_NT 10.0.22621
+18 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "--json" "mysql" "description" "dist-tags.latest" "homepage" "version"
+19 error cwd c:\Users\leona\OneDrive\Área de Trabalho\mw\Nodejs\MYSQL conection
+20 error node -v v16.15.0
+21 error npm -v 1.3.21
+22 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+23 verbose exit [ 1, true ]
